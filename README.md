@@ -59,7 +59,9 @@ Docker
 
 Provides containerized PostgreSQL environment
 
-📊 Architecture Diagram
+## 📊 Architecture Diagram
+
+```
         ┌─────────────────────┐
         │     REST Client     │
         └─────────┬───────────┘
@@ -82,6 +84,7 @@ Provides containerized PostgreSQL environment
         │     PostgreSQL      │
         │   (Flyway Managed)  │
         └─────────────────────┘
+```
 🗄 Domain Overview
 Citizens
 
